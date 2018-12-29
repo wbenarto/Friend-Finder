@@ -12,7 +12,7 @@ module.exports = function(app) {
         var newFriend = req.body;
         var userName = newFriend.name;
         var userPhoto = newFriend.photo;
-        var newFriendScores = newFriend.scores;
+        var newFriendScores = newFriend.score;
 
         console.log(newFriend)
         friendsArr.push(newFriend);
