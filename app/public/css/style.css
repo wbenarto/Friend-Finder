@@ -1,0 +1,58 @@
+body {
+    background-color: #f1f1f1;
+    color: #fff;
+    
+};
+
+.jumbotron {
+    margin-top: 100px; 
+    padding-top: 100px;
+    background-color: #3fca6e;
+
+}
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+    background-color: #2d86df;
+    border-radius: .3rem;
+    height: 1900px;
+}
+
+#header {
+    margin-top: 50px;
+
+}
+
+#content {
+    margin-top: 100px;
+}
+
+#footer {
+    margin-top: 100px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px    
+}
+
+a {
+    color: white;
+    
+}
+
+
+#survey {
+    margin-top: 80px;
+    position: absolute;
+}
+
+h3 {
+    color: #234254;
+}
+
+h5{
+    margin-top: 10px;
+}
