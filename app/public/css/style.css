@@ -1,6 +1,5 @@
 body {
     background-color: #f1f1f1;
-    color: #fff;
     
 };
 
@@ -11,25 +10,32 @@ body {
 
 }
 
+.container {
+    width: 500px;
+}
 
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 0;
     background-color: #2d86df;
     border-radius: .3rem;
-    height: 1900px;
+    height: 100%;
 }
 
-.survey {
-    
+#surveypage{
+    height: 2500px;
 }
+
 #header {
     margin-top: 50px;
-
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 #content {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 #footer {
@@ -43,19 +49,110 @@ body {
 
 a {
     color: white;
+    text-align: center;
+    margin: auto;
     
 }
 
+/* Modal */
+.modal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#resModal {
+    color: #4832c4;
+    width: 325px;
+}
+
+.modal-dialogue {
+    width:500px;
+    vertical-align: center;
+}
 
 #survey {
     margin-top: 80px;
-    position: absolute;
+    text-align: center;
+    margin-left: 40px;
 }
 
+.browser-default {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-family: 'Righteous', cursive;
+    background-color: white;
+
+}
+
+
+
+#submit {
+    margin: 20px 20px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #c22929;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+}
 h3 {
     color: #234254;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.questions {
+    margin-top: 40px;
+    
+    
+}
+
+p.questions {
+    color: white;
+    margin-top: 10px;
+}
+
+#celebrity {
+    font-family: 'Lobster', cursive;
+    color: #be3743;
 }
 
 h5{
     margin-top: 10px;
+    font-family: 'Righteous', cursive;
+}
+
+
+@media(max-width:667px) {
+    .container {
+        width: 300px;
+        height: 1800px;
+    }
+
+    .modal {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #resModal {
+        width: 325px;   
+    }
 }

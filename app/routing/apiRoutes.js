@@ -35,8 +35,6 @@ module.exports = function(app) {
 
         for (var i = 0; i < friendsArr.length; i++) {
 
-            // console.log(friendsArr[i].name);
-            // console.log(friendsArr[i])
             var totalDiff = 0;
 
             var bffScore = friendsArr[i].scores.reduce((a, b) => a + b, 0);

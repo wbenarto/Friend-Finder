@@ -7,10 +7,12 @@
   <title>Friend Finder</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Major+Mono+Display|Lobster|Open+Sans|Righteous" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
@@ -21,28 +23,31 @@
         <h3>Welcome to
           <br>
           Friend-Finder</h3>
-        <h3>Celebrity BFFs Edition</h3>
+        <h3 id="celebrity">Celebrity BFFs Edition</h3>
       </div>
 
+      <hr>
+      
       <div id="content">
-        <h4>Answer a few questions.
+        <h5>Answer a few questions.
           <br>
           Then find a celebrity friend with greatest compatibility!
-        </h4>
-        <hr>
-        <a href="/survey"><button id="survey" class="btn btn-danger btn-lg"><span class="fas fa-poll-h"></span>Go To
-            Survey</button></a>
-            
+        </h5> 
       </div>
+      
+      <hr>
+      <a href="/survey"><button id="survey" class="btn btn-danger btn-lg"><span class="fas fa-poll-h"></span>Go To        Survey</button></a>
+
+     
 
 
     </div>
     <div id="footer" class='col s4'>
       <p><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/wbenarto/Friend-Finder' target='_blank'>GitHub
           Repo</a>
-          <a href=""><i class="fab fa-node-js"></i></a>
-          
-      
+        <a href=""><i class="fab fa-node-js"></i></a>
+
+
     </div>
   </div>
 </body>
