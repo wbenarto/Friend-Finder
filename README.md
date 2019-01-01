@@ -45,9 +45,9 @@ https://agile-dusk-71128.herokuapp.com
 - Express
 - Bootstrap
 
-<img src="../img/FriendFinder1.png" alt="How to use the app" width="400px">
-<img src="../img/FriendFinder2.png" alt="How to use the app" width="400px">
-<img src="../img/FriendFinder3.png" alt="How to use the app" width="400px">
-<img src="../img/FriendFinder4.png" alt="How to use the app" width="400px">
+<img src="/img/FriendFinder1.png" alt="How to use the app" width="400px">
+<img src="/img/FriendFinder2.png" alt="How to use the app" width="400px">
+<img src="/img/FriendFinder3.png" alt="How to use the app" width="400px">
+<img src="/img/FriendFinder4.png" alt="How to use the app" width="400px">
 
 
