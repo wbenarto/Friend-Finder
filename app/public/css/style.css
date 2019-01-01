@@ -7,7 +7,6 @@ body {
     margin-top: 100px; 
     padding-top: 100px;
     background-color: #3fca6e;
-
 }
 
 .container {
@@ -70,10 +69,11 @@ a {
     vertical-align: center;
 }
 
+/* Home Page Survey Button */
 #survey {
     margin-top: 80px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: auto;
 }
 
 .browser-default {
@@ -81,10 +81,7 @@ a {
     border-radius: 8px;
     font-family: 'Righteous', cursive;
     background-color: white;
-
 }
-
-
 
 #submit {
     margin: 20px 20px;
